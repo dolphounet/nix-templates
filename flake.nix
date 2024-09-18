@@ -10,6 +10,13 @@
           Angular template | npm start to start the server
         '';
       };
+      node = {
+        path = ./node;
+        description = "Nodejs environment";
+        welcomeText = ''
+          Nodejs template | pnpm to install packages
+        '';
+      };
     };
   };
 }
