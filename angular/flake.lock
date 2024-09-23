@@ -1,20 +1,43 @@
 {
   "nodes": {
-    "nixpkgs": {
+    "language-servers": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
       "locked": {
-        "lastModified": 1726243404,
-        "narHash": "sha256-sjiGsMh+1cWXb53Tecsm4skyFNag33GPbVgCdfj3n9I=",
-        "path": "/nix/store/l3amk5lsakpc93him5kry24kax23sn4h-source",
-        "rev": "345c263f2f53a3710abe117f28a5cb86d0ba4059",
-        "type": "path"
+        "lastModified": 1709675937,
+        "narHash": "sha256-LpSNmATGgzyXBnnXsuD6NX4VhnvbHPSCKO5hyNk1mz4=",
+        "ref": "refs/heads/master",
+        "rev": "23ac6ce745daede8c801160bbda7d2114666bd94",
+        "revCount": 13,
+        "type": "git",
+        "url": "https://git.sr.ht/~bwolf/language-servers.nix"
       },
       "original": {
-        "id": "nixpkgs",
-        "type": "indirect"
+        "type": "git",
+        "url": "https://git.sr.ht/~bwolf/language-servers.nix"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1727073201,
+        "narHash": "sha256-EmhrfjqVDTyik/HMN7pyYLf5IMXRBz5/55ybcQz994E=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "921f61df10e89ca9295d393aee39ecfc4aa6f5ce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "root": {
       "inputs": {
+        "language-servers": "language-servers",
         "nixpkgs": "nixpkgs",
         "utils": "utils"
       }
