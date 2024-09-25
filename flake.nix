@@ -17,6 +17,13 @@
           Nodejs template | pnpm to install packages
         '';
       };
+      java = {
+        path = ./java;
+        description = "Java with maven";
+        welcomeText = ''
+          Initialize your project with mvn
+        '';
+      };
     };
   };
 }
