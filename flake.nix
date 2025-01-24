@@ -24,6 +24,14 @@
           Initialize your project with mvn
         '';
       };
+      flutter = {
+        path = ./flutter;
+        description = "Flutter environment";
+        welcomeText = ''
+          Create a new project with
+            flutter create <name>
+        '';
+      };
     };
   };
 }
